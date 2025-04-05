@@ -4,10 +4,10 @@ CryptoNews Aggregator is a simple web application built with **Rust (Axum)** and
 
 ## Features
 
-- 🔍 **Search any cryptocurrency** (e.g., BTC, ETH, SOL)
-- 📰 **Fetch latest news** related to the cryptocurrency
-- 💱 Uses **CoinMarketCap** for token info and **NewsData.io** for news
-- 🌐 Simple frontend interface
+- **Search any cryptocurrency** (e.g., BTC, ETH, SOL)
+- **Fetch latest news** related to the cryptocurrency
+- Uses **CoinMarketCap** for token info and **NewsData.io** for news
+- Simple frontend interface
 
 ## Requirements
 
@@ -79,7 +79,7 @@ CryptoNews Aggregator is a simple web application built with **Rust (Axum)** and
 - **dotenv** – Env variable handling
 - **HTML/CSS/JS** – Frontend
 
-## 🙌 Authors
+## Authors
 
 - **Dias Zakir / SE-2320**
 - **Anvar Tamabayev / SE-2320**

@@ -123,8 +123,12 @@ async fn main() {
             axum::response::Html(include_str!("../static/index.html"))
         }))
         .route("/style.css", get(|| async {
-            axum::response::Html(include_str!("../static/style.css"))
+            (
+                [("Content-Type", "text/css")],
+                include_str!("../static/style.css")
+            )
         }))
+        
         .route("/script.js", get(|| async {
             axum::response::Html(include_str!("../static/script.js"))
         }));

@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.site-header {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.site-header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.main-page {
+  text-align: center;
+  margin: 2rem;
+}
+
+input#cryptoInput {
+  padding: 10px;
+  font-size: 1rem;
+  width: 300px;
+  max-width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-left: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#news-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.news-article {
+  background: white;
+  border-left: 5px solid #007BFF;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.news-article h3 {
+  margin-top: 0;
+}
+
+.news-article a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.news-article a:hover {
+  text-decoration: underline;
+}

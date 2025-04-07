@@ -83,3 +83,4 @@ CryptoNews Aggregator is a simple web application built with **Rust (Axum)** and
 
 - **Dias Zakir / SE-2320**
 - **Anvar Tamabayev / SE-2320**
+- **Danel Kanbakova / SE-2320**
